@@ -1,6 +1,6 @@
 ### MinPer ReadMe
 
-- Phase 1: refer to TAIFU               [link here](https://github.com/happybee9494/Taifu/tree/main/Phase1ConnectServices)
+- Phase 1: refer to TAIFU               [link1 here](https://github.com/happybee9494/Taifu/tree/main/Phase1ConnectServices) and [link2 here](https://github.com/2022-MinPer/2022-MinPer/blob/main/channel_api/run_fetch_channel_api_call_info.sh)
 - Phase 2: 
   1. permission sentence extraction:    [link here
 ](https://github.com/2022-MinPer/2022-MinPer/tree/main/oauth)- permission_ana.py
