@@ -1,16 +1,17 @@
-### Hi there 👋
+### MinPer ReadMe
 
-<!--
-**2022-MinPer/2022-MinPer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Phase 1: refer to TAIFU
+- Phase 2: 
+  1. permission sentence extraction: [link here
+](https://github.com/2022-MinPer/2022-MinPer/tree/main/oauth)- permission_ana.py
+  2. permission atomization: [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/stanford_parser/atomic_operation.py)
+  3. (O, O) pairs extraction: [link here](https://github.com/2022-MinPer/2022-MinPer/blob/main/stanford_parser/atomic_operation.py#L355)
+- Phase 3:
+  1. object excess: [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/nn_overclaim)
+  2. operation excess: [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/verb_overclaim)
+  3. same group: [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/same_group_overclaim)
+  4. fine grained:[link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/fine_grain)
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+For dataset:
+can refer to this [link](continue)
