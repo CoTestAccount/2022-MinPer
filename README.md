@@ -9,9 +9,7 @@
 - Phase 3:
   1. object excess:                     [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/nn_overclaim)
   2. operation excess:                  [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/verb_overclaim)
-  3. same group:  
-        <li> topic_cluster:[link here](https://github.com/2022-MinPer/2022-MinPer/blob/main/channel_api/channel_cluster/service_topic_LDA.py) </li>
-        <li> excess detection:[link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/same_group_overclaim) </li>
+  3. same group:  \ <li> topic_cluster:[link here](https://github.com/2022-MinPer/2022-MinPer/blob/main/channel_api/channel_cluster/service_topic_LDA.py) </li>  \ <li> excess detection:[link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/same_group_overclaim) </li>
   4. fine grained:                      [link here](https://github.com/2022-MinPer/2022-MinPer/tree/main/fine_grain)
 
 
