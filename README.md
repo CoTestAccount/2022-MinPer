@@ -14,7 +14,7 @@ Requirement:
 
 
 
-Section IV: ARTIFACT COLLECTION
+Section IV: ARTIFACT COLLECTION, as described by paper, we use the TAIFU
 
 Section V:  PERMISSION EXTRACTION
 
