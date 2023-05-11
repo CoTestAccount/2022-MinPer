@@ -1,24 +1,44 @@
-### Permission Minimization in Trigger-Action Integrations
+## Folder Structure
 
-To Do:
+```
+├── README.md
+├── INSTALL.md
+├── src
+│   ├── Phase1 - TAIFU: link here
+│   │ 
+│   ├── Phase2
+│   │	├── permission_ana.py
+│   │   ├── sentence_perm_classifier.py
+│   │
+│   ├── Phase3
+│       ├── nn_overclaim_det.py
+│       ├── verb_overclaim_det.py
+│       ├── same_group_det.py
+├── dataset
+│	├── channel_api_nn.txt
+│ 
+├── stanford_parser
+│   ├── atomic_operation.py
+│   ├── load_finfo.py
+│   ├── stanford_parser.py
 
-README.md
+
+```
 
 
+## Description:
+Our source data is already stored in folder dataset, if user would like to fetch data from original: please refer to TAIFU paper, and we start directly from Phase2
 
-Requirement:
+### Phase 2:
+```permission_ana.py```: Run this file to obtain the full outputs on the console. This corresponds to the Section V.A permission S of our paper.
 
-1. Stanford Paser: for how to set up and access Stanford CoreNLP server. https://www.khalidalnajjar.com/how-to-setup-and-use-stanford-corenlp-server-with-python/  how to set up server command: java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer  -preload tokenize,ssplit,pos,lemma,ner,parse,depparse,dcoref,relation  -status_port 9000 -port 9000 -timeout 15000''
+```sentence_perm_classifier.py```  This corresponds to the Section V.A Permission R of our paper.
 
-2. 
+We put the Section V.B part into folder ```stanford_parser``` since it is heavily used by other parts. 
+<li> For complex permission splitation, refer to function ```atomic_sentence``` stored in ```atomic_operation.py```. </li>
+<li> For verb, noun extraction, refer to ```stanford_parser.py``` </li> 
 
-
-
-Section IV: ARTIFACT COLLECTION, as described by paper, we use the TAIFU
-
-Section V:  PERMISSION EXTRACTION
-
-Section VI: PERMISSION EXCESS DETECTION
-
+### Phase 3: 
+As mentioned in our paper, we would first check noun permission excess, then verb permission excess, we also explore the group level permission excess. As demonstrated by the name of ```nn_overclaim_det.py```,  ```verb_overclaim_det.py``` and ```same_group_det.py```
 
 
